@@ -1,6 +1,6 @@
 {
   "name": "@pyramation/args-js",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "tool for parsing arguments when building browser-based command line interfaces",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/pyramation/args-js#readme",

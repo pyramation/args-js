@@ -1,0 +1,436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`argument parsing booleans 1`] = `
+Object {
+  "alias": Object {
+    "o": "opt",
+  },
+  "boolean": Array [
+    "flags",
+  ],
+  "string": Array [
+    "opt",
+  ],
+}
+`;
+
+exports[`argument parsing booleans 2`] = `
+Object {
+  "_": Array [],
+  "flags": Array [
+    "a",
+    "b",
+    "c",
+    "d",
+  ],
+  "opt": "e",
+}
+`;
+
+exports[`argument parsing noUnderscores 1`] = `
+Object {
+  "alias": Object {},
+  "boolean": Array [],
+  "string": Array [
+    "sources",
+    "target",
+  ],
+}
+`;
+
+exports[`argument parsing noUnderscores 2`] = `
+Object {
+  "_": Array [],
+  "sources": Array [
+    "a",
+    "b",
+    "c",
+    "d",
+  ],
+  "target": "e",
+}
+`;
+
+exports[`argument parsing strings 1`] = `
+Object {
+  "alias": Object {
+    "r": "recursive",
+  },
+  "boolean": Array [
+    "recursive",
+  ],
+  "string": Array [
+    "sources",
+    "target",
+  ],
+}
+`;
+
+exports[`argument parsing strings 2`] = `
+Object {
+  "_": Array [],
+  "r": true,
+  "recursive": true,
+  "sources": Array [
+    "a",
+    "b",
+    "c",
+    "d",
+  ],
+  "target": "e",
+}
+`;
+
+exports[`array casting booleans 1`] = `
+Object {
+  "alias": Object {
+    "o": "opt",
+  },
+  "boolean": Array [
+    "flags",
+  ],
+  "string": Array [
+    "opt",
+  ],
+}
+`;
+
+exports[`array casting booleans 2`] = `
+Object {
+  "_": Array [],
+  "flags": Array [
+    "a",
+  ],
+  "opt": "a",
+}
+`;
+
+exports[`array casting noUnderscores 1`] = `
+Object {
+  "alias": Object {},
+  "boolean": Array [],
+  "string": Array [
+    "sources",
+    "target",
+  ],
+}
+`;
+
+exports[`array casting noUnderscores 2`] = `
+Object {
+  "_": Array [],
+  "sources": Array [
+    "d",
+  ],
+  "target": "e",
+}
+`;
+
+exports[`array casting strings 1`] = `
+Object {
+  "alias": Object {
+    "r": "recursive",
+  },
+  "boolean": Array [
+    "recursive",
+  ],
+  "string": Array [
+    "sources",
+    "target",
+  ],
+}
+`;
+
+exports[`array casting strings 2`] = `
+Object {
+  "_": Array [],
+  "r": true,
+  "recursive": true,
+  "sources": Array [
+    "a",
+  ],
+  "target": "b",
+}
+`;
+
+exports[`cd args 1`] = `
+Object {
+  "_": Array [
+    "a",
+  ],
+}
+`;
+
+exports[`cd args 2`] = `
+Object {
+  "_": Array [],
+  "path": "a",
+}
+`;
+
+exports[`cd args 3`] = `
+Object {
+  "_": Array [],
+  "path": "a",
+}
+`;
+
+exports[`cd noArgs 1`] = `
+Object {
+  "_": Array [],
+}
+`;
+
+exports[`cd noArgs 2`] = `
+Object {
+  "_": Array [],
+  "path": undefined,
+}
+`;
+
+exports[`cd noArgs 3`] = `
+Object {
+  "_": Array [],
+  "path": "/",
+}
+`;
+
+exports[`defaults args 1`] = `
+Object {
+  "_": Array [
+    "a",
+  ],
+  "c": undefined,
+}
+`;
+
+exports[`defaults args 2`] = `
+Object {
+  "_": Array [],
+  "a": "a",
+  "b": undefined,
+  "c": undefined,
+}
+`;
+
+exports[`defaults args 3`] = `
+Object {
+  "_": Array [],
+  "a": "a",
+  "b": "blastmeC",
+  "c": false,
+}
+`;
+
+exports[`defaults noArgs 1`] = `
+Object {
+  "_": Array [],
+  "c": undefined,
+}
+`;
+
+exports[`defaults noArgs 2`] = `
+Object {
+  "_": Array [],
+  "a": undefined,
+  "b": undefined,
+  "c": undefined,
+}
+`;
+
+exports[`defaults noArgs 3`] = `
+Object {
+  "_": Array [],
+  "a": "/",
+  "b": "blastmeC",
+  "c": false,
+}
+`;
+
+exports[`ls ls . 1`] = `
+Object {
+  "alias": Object {
+    "a": "hidden",
+    "l": "long",
+  },
+  "boolean": Array [
+    "long",
+    "hidden",
+  ],
+  "string": Array [
+    "path",
+  ],
+}
+`;
+
+exports[`ls ls . 2`] = `
+Object {
+  "_": Array [],
+  "a": undefined,
+  "hidden": false,
+  "l": undefined,
+  "long": false,
+  "path": ".",
+}
+`;
+
+exports[`ls ls -la 1`] = `
+Object {
+  "alias": Object {
+    "a": "hidden",
+    "l": "long",
+  },
+  "boolean": Array [
+    "long",
+    "hidden",
+  ],
+  "string": Array [
+    "path",
+  ],
+}
+`;
+
+exports[`ls ls -la 2`] = `
+Object {
+  "_": Array [],
+  "a": true,
+  "hidden": true,
+  "l": true,
+  "long": true,
+  "path": ".",
+}
+`;
+
+exports[`ls ls 1`] = `
+Object {
+  "alias": Object {
+    "a": "hidden",
+    "l": "long",
+  },
+  "boolean": Array [
+    "long",
+    "hidden",
+  ],
+  "string": Array [
+    "path",
+  ],
+}
+`;
+
+exports[`ls ls 2`] = `
+Object {
+  "_": Array [],
+  "a": undefined,
+  "hidden": false,
+  "l": undefined,
+  "long": false,
+  "path": ".",
+}
+`;
+
+exports[`missing required arguments booleans 1`] = `
+Object {
+  "alias": Object {
+    "o": "opt",
+  },
+  "boolean": Array [
+    "flags",
+  ],
+  "string": Array [
+    "opt",
+  ],
+}
+`;
+
+exports[`missing required arguments noUnderscores 1`] = `
+Object {
+  "alias": Object {},
+  "boolean": Array [],
+  "string": Array [
+    "sources",
+    "target",
+  ],
+}
+`;
+
+exports[`missing required arguments strings 1`] = `
+Object {
+  "alias": Object {
+    "r": "recursive",
+  },
+  "boolean": Array [
+    "recursive",
+  ],
+  "string": Array [
+    "sources",
+    "target",
+  ],
+}
+`;
+
+exports[`split flag 1`] = `
+Object {
+  "_": Array [],
+  "c": undefined,
+  "closeable": true,
+  "d": "l",
+  "direction": "left",
+  "l": undefined,
+  "locked": false,
+  "root": undefined,
+  "s": undefined,
+  "select": true,
+  "t": undefined,
+  "targetable": true,
+}
+`;
+
+exports[`split noArgs 1`] = `
+Object {
+  "_": Array [],
+  "c": undefined,
+  "closeable": true,
+  "direction": undefined,
+  "l": undefined,
+  "locked": false,
+  "root": undefined,
+  "s": undefined,
+  "select": true,
+  "t": undefined,
+  "targetable": true,
+}
+`;
+
+exports[`split param 1`] = `
+Object {
+  "_": Array [],
+  "c": undefined,
+  "closeable": true,
+  "d": "l",
+  "direction": "left",
+  "l": undefined,
+  "locked": false,
+  "root": undefined,
+  "s": undefined,
+  "select": true,
+  "t": undefined,
+  "targetable": true,
+}
+`;
+
+exports[`split root 1`] = `
+Object {
+  "_": Array [],
+  "c": undefined,
+  "closeable": true,
+  "d": "l",
+  "direction": "left",
+  "l": undefined,
+  "locked": false,
+  "root": "yo",
+  "s": undefined,
+  "select": true,
+  "t": undefined,
+  "targetable": true,
+}
+`;
